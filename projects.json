@@ -1,0 +1,103 @@
+{
+  "skills": {
+    "Flask": ":simple-flask:",
+    "React": ":simple-react:",
+    "PostgreSQL": ":simple-postgresql:",
+    "Redis": ":simple-redis:",
+    "AWS": ":simple-amazonaws:",
+    "Python": ":simple-python:",
+    "Django": ":simple-django:",
+    "SQLite": ":simple-sqlite:",
+    "Nginx": ":simple-nginx:",
+    "Docker": ":simple-docker:",
+    "Git": ":simple-git:"
+  },
+  "projects": [
+    {
+      "name": "MacTrack",
+      "description": "A full-stack course platform for McMaster students running in production.",
+      "icon": ":material-database-search:",
+      "date": "Jan 2026 - Ongoing",
+      "note": "Live Production System",
+      "tech": "React, Go, AWS Lambda, Supabase PostgreSQL, Python",
+      "skills": [
+        "Backend Development",
+        "Serverless Architecture",
+        "Web Scraping",
+        "API Design",
+        "Database Design"
+      ],
+      "live": "https://mactrack.mactrack-team.workers.dev/",
+      "github": "https://github.com/hasan-ston/mactrack",
+      "writeup": "mactrack.md"
+    },
+    {
+      "name": "McMaster Seat Tracker",
+      "description": "Production course monitoring system with automated email notifications when seats become available.",
+      "icon": ":material-bell-alert:",
+      "date": "Dec 2025 - Ongoing",
+      "note": "Production System",
+      "tech": "Flask, SQLite, Playwright, Nginx, AWS EC2",
+      "skills": [
+        "Flask",
+        "SQLite",
+        "Nginx",
+        "AWS"
+      ],
+      "live": "https://macseats.duckdns.org",
+      "github": "https://github.com/hasan-ston/seatTracker",
+      "writeup": "seat-tracker.md"
+    },
+    {
+      "name": "Personal Finance Tracker",
+      "description": "Full-stack finance tracking app with AI-powered spending insights and Redis caching.",
+      "icon": ":material-cash:",
+      "date": "Nov 2025 - Dec 2025",
+      "note": "Full-Stack Project",
+      "tech": "Flask, React, PostgreSQL, Redis, JWT",
+      "skills": [
+        "Flask",
+        "React",
+        "PostgreSQL",
+        "Redis",
+        "AWS"
+      ],
+      "live": "https://financetrackerhasan.vercel.app/",
+      "github": "https://github.com/hasan-ston/FinanceTracker",
+      "writeup": "finance-tracker.md"
+    },
+    {
+      "name": "AI-Powered Quiz Generator",
+      "description": "LangGraph agent that generates, evaluates, and refines quiz questions until quality thresholds are met.",
+      "icon": ":material-school:",
+      "date": "Oct 2025 - Nov 2025",
+      "note": "AI Project",
+      "tech": "Python, Django, LangGraph, Gemini API",
+      "skills": [
+        "Python",
+        "Django"
+      ],
+      "github": "https://github.com/hasan-ston/Notes_app",
+      "demo_video": "https://youtube.com/watch?v=0o1s1O7-G_w",
+      "writeup": "quiz-generator.md"
+    },
+
+    {
+      "name": "HTTP Server in C++",
+      "description": "A lightweight HTTP server built from scratch in C++, using fork() for concurrent client connections and handling HTTP request/response cycles with TCP sockets.",
+      "icon": ":material-server-network:",
+      "date": "Oct 2025 - Nov 2025",
+      "note": "Systems Programming",
+      "tech": "C++, Socket Programming, HTTP Protocol, TCP/IP, Fork/Process Management",
+      "skills": [
+        "C++",
+        "Network Programming",
+        "Socket Programming",
+        "Process Management"
+      ],
+      "github": "https://github.com/hasan-ston/HTTP-server-in-C-",
+      "demo_video": "",
+      "writeup": "http-server.md"
+}
+  ]
+}
