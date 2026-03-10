@@ -22,29 +22,7 @@ It combines:
 
 ## Architecture Overview
 
-MacTrack is split across three independently deployable layers: a React SPA on Cloudflare Pages, a Go API on AWS Lambda behind API Gateway, and a Python scraper Lambda on an EventBridge schedule. 
-
-```
-Cloudflare Pages (React SPA)
-        |
-        | HTTPS (VITE_API_BASE_URL)
-        v
-API Gateway HTTP API (/prod)
-        |
-        v
-Go Lambda (MactrackFunction)
-        |
-        v
-Supabase PostgreSQL
-
-EventBridge (every minute)
-        |
-        v
-Python SeatScraper Lambda
-        |
-        ├── Supabase (read watches / update seat status)
-        └── Go internal endpoint /api/internal/notify
-```
+![MacTrack architecture](../assets/images/architecture overview.png)
 
 ### Stack
 
