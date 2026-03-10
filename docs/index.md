@@ -19,7 +19,7 @@ Wrote an HTTP server in C++ to figure out how the web actually works, built full
 
 ## What I'm Working On
 
-Right now I'm maintaining the [McMaster Seat Tracker](https://macseats.duckdns.org) - a course monitoring system built to handle 300+ course watches with automated emails.
+Right now I'm building and maintaining MacTrack, a platform for McMaster students that combines course exploration, degree planning, GPA tracking, and seat monitoring in one place. The system runs in production and currently tracks hundreds of active course watches with automated email notifications when seats open.
 
 Also working on a distributed task queue system. Built the task abstraction with serialization and retry tracking, designed the queue interface with priority handling, and set up the storage backend abstraction. Next up is implementing the Redis backend and worker/consumer logic. It's forcing me to think through how message queues actually work at a lower level. 
 
