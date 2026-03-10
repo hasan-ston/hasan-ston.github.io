@@ -14,6 +14,24 @@
   },
   "projects": [
     {
+      "name": "MacTrack",
+      "description": "A full-stack course platform for McMaster students running in production.",
+      "icon": ":material-database-search:",
+      "date": "Jan 2026 - Ongoing",
+      "note": "Live Production System",
+      "tech": "React, Go, AWS Lambda, Supabase PostgreSQL, Python",
+      "skills": [
+        "Backend Development",
+        "Serverless Architecture",
+        "Web Scraping",
+        "API Design",
+        "Database Design"
+      ],
+      "live": "https://mactrack.mactrack-team.workers.dev/",
+      "github": "https://github.com/hasan-ston/mactrack",
+      "writeup": "mactrack.md"
+    },
+    {
       "name": "McMaster Seat Tracker",
       "description": "Production course monitoring system with automated email notifications when seats become available.",
       "icon": ":material-bell-alert:",
